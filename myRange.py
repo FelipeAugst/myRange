@@ -1,4 +1,4 @@
-import sys
+
 
 class MyRange:
     step=1
@@ -45,6 +45,5 @@ class MyRange:
    
    
 
-for n in sys.argv:
-    print(n)
+
 
