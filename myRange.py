@@ -1,4 +1,4 @@
-import sys
+
 
 class MyRange:
     step=1
@@ -16,7 +16,7 @@ class MyRange:
    
     def __iter__(self):
         if not self.valid():
-            raise BaseException("Intervalo invalido!")
+            raise BaseException("Invalid interval!")
             return
         return self.__next__()
    
@@ -45,6 +45,5 @@ class MyRange:
    
    
 
-for n in sys.argv:
-    print(n)
+
 
